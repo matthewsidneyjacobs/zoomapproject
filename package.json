@@ -1,0 +1,24 @@
+{
+  "name": "zoomapproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewsidneyjacobs/zoomapproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewsidneyjacobs/zoomapproject/issues"
+  },
+  "homepage": "https://github.com/matthewsidneyjacobs/zoomapproject#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "jquery-ui": "^1.12.1"
+  }
+}
