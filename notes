@@ -1,0 +1,24 @@
+function initMap() {
+  var uluru = {lat: -25.363, lng: 131.044};
+  var mountain = {lat:-24.236943, lng:131.561091};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  });
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+  });
+  var marker2 = new google.maps.Marker({
+    position: mountain,
+    map: map
+  });
+}
+
+
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+</script>

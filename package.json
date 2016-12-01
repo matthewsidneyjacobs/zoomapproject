@@ -19,6 +19,7 @@
   "homepage": "https://github.com/matthewsidneyjacobs/zoomapproject#readme",
   "dependencies": {
     "angular": "^1.5.9",
+    "angular-ui-router": "^0.3.2",
     "jquery-ui": "^1.12.1"
   }
 }
